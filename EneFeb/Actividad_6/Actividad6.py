@@ -34,7 +34,7 @@ graph_frame.pack(side=tk.LEFT, fill=tk.BOTH, expand=True)
 fig, ax = plt.subplots(figsize=(8, 5))
 ax.bar(df["Valor de X"], df["Frecuencia"], color='blue', alpha=0.7)
 ax.set_xlabel("Suma de los tres dados (X)")
-ax.set_ylabel("Frecuencia : Probabilidad")
+ax.set_ylabel("Frecuencia")
 ax.set_title("Distribución de la suma de tres dados de 20 caras")
 ax.grid(axis='y', linestyle='--', alpha=0.7)
 
